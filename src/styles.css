@@ -1,0 +1,52 @@
+* {
+    margin: 0.5em;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+	background-image: image("C:\wdv321\address-book\public\pamcaso.jpg");
+}
+
+.App {
+    display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.rolo-col-mini {
+	width: 20%;
+	padding: 10px;
+	overflow-y: scroll;
+}
+
+.rolo-info {
+	padding-left: 15em;
+    margin-right: 10px;
+}
+
+.select-contact {
+	padding-left: 15em;
+	padding-top: 5em;
+    align-items: center;
+    justify-content: center;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.preview-button {
+    width: 9em;
+    border: thin solid black;
+    padding: 5px;
+}
+
+.preview-button p {
+    color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.face {
+	padding-left: 10em;
+	padding-bottom: 3em;
+    margin: 0 20px;
+}
+
