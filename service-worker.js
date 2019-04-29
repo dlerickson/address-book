@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/WDV321/address-book/precache-manifest.468572d46ab8eda082e3e85ee3513eec.js"
+  "/WDV321/address-book/index.html/precache-manifest.ca9794d1b8b583c14a0aa278bac40095.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/WDV321/address-book/index.html", {
+workbox.routing.registerNavigationRoute("/WDV321/address-book/index.html/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
